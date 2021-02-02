@@ -1,3 +1,4 @@
 -r base.txt
 
 django-debug-toolbar==1.4
+django>=2.2.18 # not directly required, pinned by Snyk to avoid a vulnerability
